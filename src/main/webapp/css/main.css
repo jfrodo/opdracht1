@@ -1,0 +1,24 @@
+.vakje
+{
+  border: solid black 1px;
+  width: 169px;
+  height: 162px;
+  float: left;
+}
+
+.vakjeX
+{
+  /* background-image: url("./img/playX.png"); */
+	background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playX.png" );" 
+}
+
+.vakjeO
+{
+	/* background-image: url("./img/playO.png"); */
+  background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playO.png" );" 
+}
+
+.grid
+{
+  width: 520px;
+}
