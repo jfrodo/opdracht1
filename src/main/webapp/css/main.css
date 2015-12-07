@@ -3,6 +3,11 @@ body
 	font: 15px arial, sans-serif;
 }
 
+.column
+{
+	float: left;
+}
+
 .vakje
 {
   border: solid black 1px;
@@ -19,13 +24,11 @@ body
 .vakjeKruis
 {
   background-image: url("../img/playX.png");
-	/*background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playX.png" );"*/ 
 }
 
 .vakjeNul
 {
 	background-image: url("../img/playO.png");
-  /*background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playO.png" );"*/ 
 }
 
 .controls

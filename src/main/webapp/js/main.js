@@ -5,7 +5,7 @@ function init()
 	var vakjes = document.getElementsByClassName( "vakje" );
 	
     var i;
-	for ( i=0; i<vakjes.length; i++) 
+	for ( i=0; i<vakjes.length; i++ ) 
 	{
 	    vakjes[ i ].onclick = action;
 	}

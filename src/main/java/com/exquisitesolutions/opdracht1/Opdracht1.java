@@ -20,15 +20,18 @@ import com.google.gson.reflect.TypeToken;
 /**
  * Servlet plays Boter Kaas Eieren (Tic Tac Toe)
  * 
- * Request contains JSON object with parameters user action and session id
- * Possible are:
+ * Request payload is JSON object with parameters user action and session id
+ * 
+ * Possible actions are:
  * - none: no action
  * - reset: resets the game to starting position
  * - vakje: a move request from user 
  * - slim: let computer play smart moves
  * - dom: let computer play random moves
  * 
- * Response contains JSON object mapping DOM element IDs to CSS classes 
+ * session id is the regular JSESSION id
+ * 
+ * Response payload is JSON object mapping DOM element IDs to CSS classes 
  * 
  * @author Jelle-Frodo Huisman / 838022973
  *
@@ -126,7 +129,6 @@ public class Opdracht1 extends HttpServlet
    * @return converted to String 
    *          
    */
-  
   private static String convertStreamToString( java.io.InputStream is ) 
   {
     java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
