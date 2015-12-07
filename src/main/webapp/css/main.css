@@ -1,3 +1,8 @@
+body
+{
+	font: 15px arial, sans-serif;
+}
+
 .vakje
 {
   border: solid black 1px;
@@ -6,16 +11,48 @@
   float: left;
 }
 
-.vakjeX
+.vakje:hover
 {
-  /* background-image: url("./img/playX.png"); */
-	background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playX.png" );" 
+	background-color: #f0f0f0;
 }
 
-.vakjeO
+.vakjeKruis
 {
-	/* background-image: url("./img/playO.png"); */
-  background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playO.png" );" 
+  background-image: url("../img/playX.png");
+	/*background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playX.png" );"*/ 
+}
+
+.vakjeNul
+{
+	background-image: url("../img/playO.png");
+  /*background-image: url("file:///C:/Users/Jelle-Frodo/git/opdracht1/src/main/webapp/img/playO.png" );"*/ 
+}
+
+.controls
+{
+  float: left;
+}
+
+.hide
+{
+  display: none;
+}
+
+.unhide
+{
+	display: block;
+}
+
+.buttonselect
+{
+  background-color: #00f000;
+  font-color: #ffffff;
+}
+
+.buttonunselect
+{
+  background-color: none;
+  font-color: none;
 }
 
 .grid
